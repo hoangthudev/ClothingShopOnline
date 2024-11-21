@@ -1,0 +1,32 @@
+# --- Common (apply to both Frontend and Backend) ---
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# --- Frontend (ReactJS) ---
+Frontend/my-app/node_modules/
+Frontend/my-app/build/
+Frontend/my-app/dist/
+Frontend/my-app/.env
+Frontend/my-app/.env.local
+Frontend/my-app/package-lock.json
+Frontend/my-app/*.cache
+
+# --- Backend (Spring Boot) ---
+Backend/target/
+Backend/*.log
+Backend/*.tmp
+Backend/.idea/
+Backend/*.iml
+Backend/.env
+Backend/logs/
+
+# --- IDE Config Files ---
+.idea/               # IntelliJ IDEA configuration
+*.iml                # IntelliJ module files
+.vscode/             # Visual Studio Code configuration
+
+# --- OS Specific Files ---
+*.swp
+*.swo
